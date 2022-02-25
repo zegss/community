@@ -37,6 +37,10 @@ spring:
     password: 10a07a1c59379619
     protocol: smtps
     properties.mail.smtp.ssl.enable: true #开启SSL
+  redis:
+    host: localhost
+    database: 1
+    port: 6379
 
 mybatis:
   type-aliases-package: com.zeg.community.entity
